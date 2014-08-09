@@ -1,0 +1,1 @@
+﻿var person = ds.Person.all();person.fullName;
