@@ -1,1 +1,1 @@
-﻿model.Person.fullName.onGet = function() {	return this.firstName + ' ' + this.lastName;};
+﻿model.Person.fullName.onGet = function() {	return this.firstName + ' ' + this.lastName;};model.Person.sexDesc.onGet = function() {	// Add your code here;	if (this.sexCode != null) {		return ds.SexCode.find("lookupCode = :1", this.sexCode).lookupDesc;	}	};

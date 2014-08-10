@@ -1,1 +1,1 @@
-﻿var person = ds.Person.all();person.fullName;
+﻿var person = ds.Person.all();//var lookupID = ds.LookupCode.find("lookupType == 'SEX' && lookupCode == 'M'");//lookupID;//person.lookupCodeID = lookupID;//person.save();person;	//var sexDesc1 = ds.SexCode.find("lookupCode == :1", 'G').lookupDesc;/*try {	var sexDesc = ds.SexCode.find("lookupCode == :1", 'M').lookupDesc;	sexDesc;}catch(e) {	'Bad Code' + e.message;}*/
